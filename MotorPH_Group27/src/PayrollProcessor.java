@@ -383,40 +383,5 @@ public class PayrollProcessor {
     return report.toString();
 }
     
-    public static String testAttendance(
-        String employeeNumber) {
-
-    double[] cutoff1 =
-            new double[13];
-
-    double[] cutoff2 =
-            new double[13];
-
-    processAttendance(
-            employeeNumber,
-            cutoff1,
-            cutoff2);
-
-    StringBuilder report =
-            new StringBuilder();
-
-    for (int month = 6;
-            month <= 12;
-            month++) {
-
-        report.append("Month ")
-              .append(month)
-              .append("\n");
-
-        report.append("1-15 Hours: ")
-              .append(cutoff1[month])
-              .append("\n");
-
-        report.append("16-End Hours: ")
-              .append(cutoff2[month])
-              .append("\n\n");
-    }
-
-    return report.toString();
-    }
+    
 }
