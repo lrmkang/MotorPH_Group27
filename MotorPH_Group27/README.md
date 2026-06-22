@@ -50,12 +50,17 @@ The MotorPH Employee Salary Computation System is a Java Swing-based desktop app
 ## Files
 
 * Employee.java
-* EmployeeManager.java
 * EmployeeDataHandler.java
-* SalaryComputationModule.java
+* EmployeeFormDialog.java
+* EmployeeGUI.java
+* EmployeeManager.java
 * GUI.java
+* LoginGUI.java
 * Main.java
+* PayrollProcessor.java
+* SalaryComputationModule.java
 * EmployeeDetails.csv
+* AttendanceRecord.csv
 
 ## How to Run
 
