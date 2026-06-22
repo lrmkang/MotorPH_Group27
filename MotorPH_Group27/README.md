@@ -64,6 +64,17 @@ The MotorPH Employee Salary Computation System is a Java Swing-based desktop app
 3. Run Main.java.
 4. Use the GUI to manage employee records and compute salaries.
 
+### Log-in Credentials
+
+#### Login as Employee
+* Username: employee
+* Password: 12345
+
+#### Login as Payroll Staff
+* Username: payroll_staff
+* Password: 12345
+
+
 ## Author
 
 Developed as part of the Computer Programming 2 course requirements.
